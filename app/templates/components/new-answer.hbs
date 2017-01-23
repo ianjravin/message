@@ -1,0 +1,17 @@
+{{#if addNewAnswer}}
+  <div class="answer-form">
+    <h2>Answer</h2>
+    <form id="form">
+      <div class="form-group">
+        {{input value=user id="user" placeholder="Name" class="form-control"}}
+      </div>
+      <div class="form-group">
+        {{input value=reply id="reply" placeholder="Your answer" class="form-control"}}
+      </div>
+      <button class="btn btn-default center-block" {{action 'saveAnswer'}}>Post</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn answer-bt center-block" {{action 'answerFormShow'}}>Answer this question <i class="fa fa-level-down" aria-hidden="true"></i>
+  </button>
+{{/if}}

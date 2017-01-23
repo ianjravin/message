@@ -1,0 +1,20 @@
+{ "questions": [{
+    "username": "ForPizzaSake",
+    "city": "Austin",
+    "question": "Best pizza place?",
+    "body": "I'm looking for the best place to eat pizza."
+  }, {
+    "username": "RitaWoki",
+    "city": "Nairobi",
+    "question": "Where is the church?",
+    "body": "Am looking for a place to worship?"
+  }],
+
+  "answers": [{
+    "username": "KittyKanyau",
+    "answer": "Via 313 if you like deep dish. Backspace for Neapolitan style."
+  }, {
+    "username": "IanJravin",
+    "answer": "Citam valley Road, Deliverance Waiyaki way."
+  }]
+}

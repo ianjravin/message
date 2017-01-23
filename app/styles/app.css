@@ -1,0 +1,195 @@
+body{
+  font-family: 'Taviraj', serif;
+  background-image: url("background.jpg")
+}
+h1, h2 {
+  text-align: center;
+}
+.nav {
+  background-color: #f2f2f2;
+}
+.nav-links {
+  padding-top: 23px;
+  color: #B10F2E;
+  font-size: 20px;
+}
+.fa-flag {
+  padding-left: 30px;
+  font-size: 22px;
+}
+.fa-cog {
+  padding-right: 30px;
+  float: right;
+}
+.title a, .each-question a:hover, .nav-links:hover {
+  color: #280000;
+  text-decoration: none;
+}
+.question-author {
+  font-size: 14px;
+}
+.title a:hover {
+  color: #B10F2E;
+  text-decoration: none;
+}
+.each-question a {
+  color: #8d0c24;
+}
+.answer-form, .new-question-form {
+  width: 60%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #d9d9d9;
+  margin-left: 20%;
+  margin-bottom: 50px;
+  background-color: #f2f2f2;
+}
+.new-question-form {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/*----- Individual Question Page ----*/
+.question-page {
+  box-shadow: 3px 3px #f2f2f2;
+  border: 2px dashed #d9d9d9;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 45px;
+}
+.question-page p {
+  font-size: 18px;
+}
+.answer {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f2f2f2
+}
+.user {
+  font-size: 12px;
+  font-style: italic;
+}
+.reply {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.answer-bt {
+  background: transparent;
+  border: none;
+  color: #B10F2E;
+  font-style: italic;
+  font-size: 18px;
+}
+.like-btn {
+  background: transparent;
+  border: none;
+}
+.like-btn:hover {
+  color: red;
+}
+.right {
+  float: right;
+}
+/*-------------  Admin ------------*/
+.intro-title {
+  font-size: 18px;
+  color: #666;
+  padding-left: 0px;
+  margin-left: 0px;
+  text-align: left;
+}
+.question-btn {
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  color: #B10F2E;
+}
+.question-btn:hover {
+  color: #570000;
+}
+.admin-intro {
+  text-align: center;
+}
+.admin-intro h3 {
+  margin-top: -3px;
+  font-size: 22px;
+}
+.new-question-form {
+  padding-bottom: 20px;
+}
+.new-question-form h3 {
+  color: #B10F2E;
+}
+.admin-tiles {
+  box-shadow: 1px 1px 5px #f2f2f2;
+  border: 2px dashed #d9d9d9;
+  padding: 20px;
+}
+.edit, .delete {
+  background: transparent;
+  border: none;
+  margin-top: -50px;
+  padding: 18px;
+}
+.delete {
+  color: red;
+}
+.edit {
+  color: blue;
+}
+
+/*-------------  Flagged Questions ------------*/
+.flag-intro h3 {
+  margin-top: -3px;
+  font-size: 22px;
+  color: #B10F2E;
+  text-align: center;
+}
+
+.flag-btn {
+  background: transparent;
+  border: none;
+  color: #000;
+}
+
+.flag-btn:hover {
+  color: #B10F2E;
+}
+
+.flagged-btn {
+  background: transparent;
+  border: none;
+  color: #B10F2E;
+}
+
+.flag-tiles {
+  box-shadow: 1px 1px 5px #f2f2f2;
+  border: 2px dashed #d9d9d9;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+.flag-intro h3 {
+  text-align: center;
+  color: #000;
+}
+.flag-tiles a {
+  color: #8d0c24;
+}
+.flag-tiles a:hover {
+  color: #280000;
+  text-decoration: none;
+}
+.message {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 20px;
+}
+.delete-flag {
+  background: transparent;
+  border: none;
+  margin-top: -50px;
+  padding: 18px;
+}
+.delete-flag:hover {
+  color: red;
+}

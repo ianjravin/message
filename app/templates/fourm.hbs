@@ -1,0 +1,13 @@
+<h2> Forum </h2>
+<hr>
+
+<h3> Active Topics </h3>
+  <dl>
+    {{#each model as |question|}}
+       {{question-tile question=question}}
+    {{/each}}
+  </dl>
+
+<h3> Ask New Question </h3>
+
+{{new-question saveQuestion2="saveQuestion3"}}

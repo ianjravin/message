@@ -1,0 +1,18 @@
+<h2> Welcome to Ask a Local </h2>
+<em>We hope you find exactly what you're looking for</em>
+<hr>
+
+
+<h3> Active Topics in {{#link-to 'fourm'}} Forum {{/link-to}} </h3>
+  <dl>
+    {{#each model as |question|}}
+      {{question-tile question=question}}
+    {{/each}}
+  </dl>
+
+  <dl>
+    {{#each model as |answer|}}
+      {{answer.username}}
+      {{answer.content}}
+    {{/each}}
+  </dl>
